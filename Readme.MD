@@ -1,4 +1,4 @@
-﻿﻿# ntitsolutions01@gmail.com; fabio.muniz01@gmail.com - OpahIT TEste
+﻿﻿# ntitsolutions01@gmail.com; fabio.muniz01@gmail.com - Desafio Técnico .NET - 2º Vaga - Softplan
 
 Este é um modelo de solução para o teste de uma API da Web ASP.NET Core seguindo os princípios da Arquitetura Limpa. 
 
@@ -13,6 +13,9 @@ Este é um modelo de solução para o teste de uma API da Web ASP.NET Core segui
 * Elasticsearch, Serilog, Kibana
 
 ## Para Rodar
+
+Nao há necessidade de executar o procedimento baixo pois nesse teste não é necessário a criação de uma banco de dados por Migrations,
+portanto o "UseInMemoryDatabase" no appsettings.json está configurado como true para que nao haja necessidade de executar o Migrations em uma base de dados.
 
 Alterar a connection string no arquivo appsettings.json com as configuraçoes de acesso 
 do banco de dados sqlexpress da maquina local onde irá rodar a api.
