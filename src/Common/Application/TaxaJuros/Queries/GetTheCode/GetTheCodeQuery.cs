@@ -14,7 +14,7 @@ namespace Application.TaxaJuros.Queries.GetTheCode
     {
         public async Task<ServiceResult<string>> Handle(GetTheCodeQuery request, CancellationToken cancellationToken)
         {
-            var git = "https://github.com/fabiomuniz01/ApiTeste.git";
+            var git = "https://github.com/ntitsolutins01/ApiTesteSoftPlan.git";
             return git != string.Empty ? ServiceResult.Success(git) : ServiceResult.Failed<string>(ServiceError.NotFount);
         }
     }
